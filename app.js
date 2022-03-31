@@ -33,13 +33,14 @@ let play = (player, computer) => {
 
 
 
-let game = () => {
-    for (let i = 0; i < 5; i++) {
-        const playerSeleciton = prompt('Enter Value')
-        const computerSelection = computerPlay();
-        console.log(play(playerSeleciton, computerSelection));
-        
-    }
-};
+// let game = () => {
+    
+// };
 
-game();
+// game();
+
+const content = querySelector('.content')
+const buttons = document.createElement('div');
+buttons.textContent = "Hello this";
+
+content.appendChild(buttons);
