@@ -5,11 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="icons/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="content">
-        
+    <div class="main">
+        <div class="heading">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+        <div class="butt">
+            <button id="rock"><i class="fa-solid fa-hand-back-fist"></i></button>
+            <button id="paper"><i class="fa-solid fa-note-sticky"></i></button>
+            <button id="scissors"><i class="fa-solid fa-scissors"></i></button>
+        </div>
+        <div class="results">
+            <div class="note"></div>
+            <div class="header">
+                <div class="comp">Computer</div>
+                <div class="play">You</div>
+            </div>
+            <div class="scores">
+                <div class="computer">
+                    <i class="fa-solid fa-circle-radiation"></i>
+                </div>
+                <div class="player">
+                    <i class="fa-solid fa-circle-radiation"></i>
+                </div>
+            </div>
+        </div>
     </div>
     
     <script src="app.js"></script>
